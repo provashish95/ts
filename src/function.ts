@@ -49,3 +49,4 @@ const student = {
 const { fullName: myName } = student;
 console.log(myName);
 console.log(myName);
+console.log(myName);
