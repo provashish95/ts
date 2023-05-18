@@ -31,10 +31,10 @@ defaultParameter(30);
 
 //spread operator in ts
 const myFriends = ['chayan', 'shipan', 'foysal'];
-const newFriends = ['Riya', 'Nisha', 'Borsha'];
+const newFriends = ['kamal', 'jamal', 'damal'];
 
 myFriends.push(...newFriends);
-// console.log(myFriends);
+console.log(myFriends);
 
 //Rest operator in ts
 const greetFriends = (...friends: string[]): void => friends.forEach((friend) => console.log(`Hi ${friend}`));
@@ -47,4 +47,4 @@ const student = {
   age: 20
 }
 const { fullName: myName } = student;
-console.log(myName);
+//console.log(myName);
