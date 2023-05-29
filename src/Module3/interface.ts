@@ -41,3 +41,19 @@ interface AddTwoNumberInterface {
 //const addNumber: addTwoNumberType = (num1, num2) => num1 + num2;
 const addNumber: AddTwoNumberInterface = (num1, num2) => num1 + num2;
 
+
+//array with type alias 
+type RollNumberType = number[];
+
+const points: RollNumberType = [1, 2, 3, 4, 5, 6];
+
+//array with interface index signature
+interface RollNumberInterface {
+  [index: number]: number;
+}
+
+const rollNumbers: RollNumberInterface = [1, 2, 3, 4, 5, 6];
+
+
+
+//when we work with object we should use Interface otherwise always use type alias

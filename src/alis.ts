@@ -29,7 +29,7 @@ const crushName: CourseNameType = "web developer next level";
 // console.log(isMarried);
 
 
-//function type alis 
+//function type alias 
 
 type OperationType = (x: number, y: number) => number;
 
