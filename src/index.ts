@@ -1,19 +1,14 @@
-let course: string = "Next Provashish Roy Engineer ok development";
+let course: string = 'next level web development';
+let rollNumber: number = 122;
+let isAdmin: boolean = true;
+let home: null = null;
+let home1: undefined = undefined;
 
-course = "tonmoy roy is a computer ";
-
-let rollNumber: number = 123;
+console.log(home);
 
 
-const isAdmin: boolean = true;
 
-let demo: string;
 
-demo = "hi dear how are you";
 
-//Primitive type
-//String
-//Number
-//Boolean
-//Null
-//Undefine 
+
+

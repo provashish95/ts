@@ -1,6 +1,11 @@
-const names: string[] = ['Abul', 'babul', 'kabul'];
-const number: number[] = [1, 2, 3, 4, 5, 6];
+// const names = ['abul', 'kabul', 'tabul', 12, true, undefined];
+// const rollNumberSeries: number[] = [12, 23, 343, 567];
 
-//Tuple
-const details: [number, string] = [123, 'roy'];
-details[0] = 123;
+//using tuple
+const user1: [number, string] = [4122, 'roy'];
+
+
+
+
+
+
