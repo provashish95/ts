@@ -30,5 +30,36 @@ const person: {
     console.log(`My new balance is ${this.balance + money}`);
   }
 }
+// console.log(person.addBalance(200));
 
-console.log(person.addBalance(200));
+
+//Default parameter
+function addition(num1: number, num2: number = 10) {
+  return num1 + num2;
+}
+// console.log(addition(100, 20));
+
+//spread operator
+const myFriends = ['chayan', 'shipan', 'pritam', 'limon'];
+const myNewFriends = ['Ajit', 'Sagor'];
+myFriends.push(...myNewFriends);
+// console.log(myFriends);
+
+//rest parameters with
+const greetFriends = (...friends: string[]): void =>
+  friends.forEach((friend) => console.log(`Hi ${friend}`));
+
+greetFriends('provashish', 'Roy', 'Tonmoy', 'pritam', 'shipan', 'chayan');
+
+//Array and object destructring 
+const myStudents = ['riya', 'diya', 'puja', 'athoi'];
+const student = ['sonjeet', 'antor', 'rifat', 'keya'];
+const developerOne = {
+  name: 'Provashish',
+  age: 27,
+  address: "Dhaka",
+  isMarried: false
+}
+const [students] = myStudents;
+const { name: fullName, age: boyos, address: thikana, isMarried: married } = developerOne;
+console.log(fullName, boyos, thikana, married);
